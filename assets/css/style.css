@@ -1,0 +1,113 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  img {
+      cursor: pointer;
+  }
+
+  .cabecalho {
+      display: flex;
+      justify-content: space-between;
+      padding: 24px;
+  }
+
+  .menu {
+      display: flex;
+      justify-content: space-between;
+      width: 146px;
+      height: 24px;
+  }
+
+  .login {
+      width: 150px;
+      height: 34px;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+  }
+
+  .foto {
+      border-radius: 50%;
+      width: 34px;
+  }
+
+  .container {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  main {
+      position: relative;
+      left: 60px;
+      top: 30px;
+      width: 850px;
+  }
+
+
+  aside {
+      position: relative;
+      right: 60px;
+      top: 30px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .video{
+    display: flex;
+    gap: 15px
+  }
+
+iframe{
+    margin-bottom: 20px;
+}
+
+  h1 {
+      font-weight: 500;
+      font-size: 20px;
+  }
+
+  .interacao {
+      width: 800px;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+  }
+
+  .descricao {
+      width: 800px;
+  }
+
+  .descricao h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+  h2 {
+      font-weight: 500;
+      font-size: 14px;
+  }
+
+  p {
+      font-weight: 400;
+      font-size: 14px;
+      color: #515151;
+  }
+
+  .video {
+      display: flex;
+  }
+
+  .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
